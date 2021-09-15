@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+}
+
+html{
+    background-color: white;
+    height: 200%;
+    box-sizing: border-box;
+    padding-top: 65px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: white;
+    border-bottom: black;
+    box-shadow: 8px 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    height: 800px;
+    background-color: grey;
+}
+
+.navbox{
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    background-color: black;
+}
+.whitebox{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav p{
+    color: blue;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+}
+
+.firstP{
+    left: 20px;
+}
+
+.secondP{
+    left: 100px;
+}
+
+.thirdP{
+    left: 200px
+}
